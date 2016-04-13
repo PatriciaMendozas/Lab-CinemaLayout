@@ -22,6 +22,7 @@
 .row {
 	margin-left: -14px;
 	margin-right: -14px;
+
 }
 
 .row:before, .row:after{
@@ -46,15 +47,21 @@
 .col-2 {
 	/* (2 / 12) x 100 */
 	width: 16.666667%;
+	padding-top: 2%; /*se aumento padding*/
+	padding-bottom: 2%;
+	background: orange;
 } 
 
 .col-3 {
 	/* (3 / 12) x 100 */
+	padding-top: 2%;/*se aumento padding*/
+	padding-bottom: 2%;
 	width: 25%;
 } 
 
 .col-4 {
 	/* (4 / 12) x 100 */
+
 	width: 33.333333%;
 }
 
