@@ -14,21 +14,79 @@ h6{
 	background:#333 url("../img/banner.jpg") left center no-repeat;
 	background-size: 83%;
 	padding: 4% 0px;
+	color: #b3b3b3;
 }
-.datospelicula{
-	color: white;
-}	
+.spacio p{
+	padding: 3% 0% 3% 0%;
+}
 .movie, .buscador{
 	padding-top: 2%;
 }
 #allage{
-	border:3px solid green;
-	width: 22%;
+	border:3px solid #00ff00;
+	width: 23%;
 	border-radius: 11%;
 	margin-top: 4%;
+	display: inline-block;
+	padding: 1%
+}
+.quitarspace{
+	padding-left: 0px;
+	padding-top: 9px;
+}
+#allage p {
+	color: #00ff00;
 }
 #nombrepeli{
-	width: 2%;
+	width: 56%;
+	display: inline-block;
+	margin-left: 3%
+}
+.imgcart{
+	padding-top: 2%; /*se aumento padding*/
+	padding-bottom: 2%;
+	background: orange;
+}
+.button, .white{/*revisar*/
+	position: relative;
+	display: block;
+}
+.textrojo{
+	color: #990000;
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+.textplomo{
+	color: #b3b3b3;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.textnegro{
+	color: black;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+ul > li {
+	list-style: none;
+	color: #D8D8D8;
+	margin-right: 0;
+	padding: 3% 0%;
+	}
+ul > li > a{
+	text-decoration: none;
+}
+.more{
+	text-decoration: none;
+	color: orange;
+}
+.formfinal{
+	background: #e6e6e6;
+	color:#b3b3b3;
+	margin: 0%;
+}
+.proximos{
+	padding-top: 2%;/*se aumento padding*/
+	padding-bottom: 2%;
 }
 input[type="search"]{
 	width: 45px; /*ancho por defecto*/
@@ -57,7 +115,6 @@ img{
 .col-3 > img{
 	height: 300px;
 }
-
 .button { /* clase general */
   border: 1px solid #dedede;
   border-radius: 3px;
@@ -66,7 +123,7 @@ img{
   font: bold 12px/12px HelveticaNeue, Arial;
   padding: 15px 22px;
   text-decoration: none;
-
+  margin: 7px 7px;
 }
 .button.white{
   background: #f5f5f5;
@@ -81,7 +138,6 @@ img{
   background: linear-gradient(top,  #f9f9f9, #f0f0f0);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f0f0f0');
 }
-
 .button.white:hover{
     background: #f4f4f4;
     border-color: #c7c7c7 #c3c3c3 #bebebe;
