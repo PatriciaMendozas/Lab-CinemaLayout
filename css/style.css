@@ -13,7 +13,7 @@ h6{
 .imgprincipal{
 	background:#333 url("../img/banner.jpg") left center no-repeat;
 	background-size: 83%;
-	padding: 4% 0px;
+	padding: 2% 0px;
 	color: #b3b3b3;
 }
 .spacio p{
@@ -83,6 +83,10 @@ ul > li > a{
 	background: #e6e6e6;
 	color:#b3b3b3;
 	margin: 0%;
+}
+.formfinal >p{
+	font-size: 9px;
+	margin:8px 0px;
 }
 .proximos{
 	padding-top: 2%;/*se aumento padding*/
